@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name      = 'BDBSpinKitRefreshControl'
-  s.version   = '1.0.2'
+  s.version   = '1.0.3'
   s.license   = 'MIT'
   s.summary   = 'Easily use SpinKit with UIRefreshControl!'
   s.homepage  = 'https://github.com/bdbergeron/BDBSpinKitRefreshControl'
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.source_files        = 'BDBSpinKitRefreshControl/*.{h,m}'  
   s.public_header_files = 'BDBSpinKitRefreshControl/*.h'
   
-  s.dependency 'SpinKit', '~> 1.0.0'
+  s.dependency 'SpinKit', '~> 1.0.2'
 end
